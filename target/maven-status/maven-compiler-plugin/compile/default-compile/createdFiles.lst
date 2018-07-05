@@ -1,0 +1,4 @@
+com\pazdziorek\myProject\dataModel\FinancialData.class
+com\pazdziorek\myProject\MyProjectApplication.class
+com\pazdziorek\myProject\domain\dataModel\DataRepository.class
+com\pazdziorek\myProject\dataModel\FinancialData$FinancialDataBuilder.class
