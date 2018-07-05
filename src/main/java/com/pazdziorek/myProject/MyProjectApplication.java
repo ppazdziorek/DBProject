@@ -24,7 +24,7 @@ public class MyProjectApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Long id = 1L;
-        financialData = new FinancialData(id, "Basic");
+        financialData = new FinancialData(id, "Basic category");
         dataRepository.save(financialData);
     }
 }
