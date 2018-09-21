@@ -25,5 +25,6 @@ public class FinancialData {
     public Long id;
     @Column(name = "CATEGORY")
     public String category;
-
+    @Column(name = "DATE")
+    public String date;
 }
