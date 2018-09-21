@@ -8,6 +8,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
+import javax.xml.crypto.Data;
+import java.util.Date;
+
 @SpringBootApplication
 @ComponentScan({"com.pazdziorek"})
 public class MyProjectApplication implements CommandLineRunner {
@@ -24,7 +27,7 @@ public class MyProjectApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Long id = 1L;
-        financialData = new FinancialData(id, "Basic category");
+        financialData = new FinancialData(id, "Basic category","21 sep 2018");
         dataRepository.save(financialData);
     }
 }
